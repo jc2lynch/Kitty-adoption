@@ -2,22 +2,30 @@
 
 body {
 	background-image:url("../images/background.png");
-	background-repeat:repeat;}
+	
 }
 
 }
 
 #container {
+		background-color: white;
+		float: inherit;
+
 
 }
 
 .dashed {
+	border:3px dashed rgba(70, 254, 255, 1)
 
 }
 
 .left-container, .right-container {
-	border: 1px solid;
-			color: rgba(70, 254, 255, 1);
+	border: 2px solid purple;
+	border-radius: 10px;
+	display: inline-block;
+	float: top;
+
+
 
 }
 h1 {

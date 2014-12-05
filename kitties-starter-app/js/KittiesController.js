@@ -1,4 +1,14 @@
-[
+// this is an array
+angular
+	.module("adoptionApp")
+	.controller("KittiesController", KittiesControllerFunc);
+
+//going to need a function that allows us to move kittens from "for adoption to to adopted"
+
+//
+
+function KittiesControllerFunc(){
+		this.kittyList=[		
 		{
 			catName: 'Karl',
 			monthsOld: 5,
@@ -29,3 +39,4 @@
 		}
 
 	]
+}
