@@ -1,6 +1,9 @@
 /*@import a Google Font here!*/
 
 body {
+	background-image:url("../images/background.png");
+	background-repeat:repeat;}
+}
 
 }
 
@@ -13,8 +16,11 @@ body {
 }
 
 .left-container, .right-container {
+	border: 1px solid;
+			color: rgba(70, 254, 255, 1);
 
 }
 h1 {
+	text-align: center;
 	
 }
