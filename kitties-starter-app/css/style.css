@@ -2,28 +2,52 @@
 
 body {
 	background-image:url("../images/background.png");
+	font-family: 'Lemon', cursive;
 	
 }
 
 }
 
 #container {
-		background-color: white;
-		float: inherit;
+	
+		
+
 
 
 }
 
 .dashed {
-	border:3px dashed rgba(70, 254, 255, 1)
+	border:1px dashed;
+	border-color: rgba(221, 75, 232, .5);
+	padding: 20;
+	margin: 20;
+	border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    list-style-type: none;
+    word-spacing: 8px;
+    line-height: 50px;
+
+    
 
 }
 
 .left-container, .right-container {
-	border: 2px solid purple;
+	border: 2px solid rgba(70, 254, 255, 1);
 	border-radius: 10px;
 	display: inline-block;
+	background-color: white;
+	margin: 10px 10px 10px 10px;
+	padding: 90px;
+	text-align: center;
+	z-index: 500;
 	float: top;
+	vertical-align: center;
+	position: relative;
+}
+
+}
 
 
 
